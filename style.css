@@ -23,9 +23,8 @@ width: 100%;
 .bar .barimg img{
     float: left;
     width: 200px;
-    background-color: white;
-    border: white solid;
-    border-radius: 20px;
+    
+    
 }
 .bartxt ul li{
     float: right;
@@ -226,4 +225,29 @@ padding:60px 0px ;
 }
 ul{
   padding:0;
+}
+
+/* last logo page */
+.lstlogo{
+width: 100%;
+
+background-color:#353330 ;
+text-align: center;
+padding: 50px 0;
+
+}
+.lst{
+    color: white;
+
+}
+
+.lst a img{
+    width: 40px;
+    
+border: 1px solid white;
+border-radius: 30px;
+}
+.lst a{
+    display: inline-block;
+    margin: 0 3px;
 }
