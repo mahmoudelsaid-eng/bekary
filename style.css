@@ -66,7 +66,7 @@ border-radius: 10px;
 
 .sec{
     width: 100%;
-  padding: 60px;
+ padding:60px 0px ;
   }
   .sec .secimg{
     width: 48%;
@@ -114,8 +114,9 @@ padding: 15px;
 
  .trd{
 background-color:#F8F8F8 ;
-    width: 100%;
-    padding: 60px;
+padding:60px 0px ;    
+width: 100%;
+    
 }
 .trd .trdtxt{
  width: 49%;
@@ -139,10 +140,90 @@ background-color:#F8F8F8 ;
 .for{
     width: 100%;
     text-align: center;
+   padding:60px 0px ;
 }
-fortxt{
+.fortxt{
+font-family:"Alegreya";
+font-size: 20px;
+}
+.forpics img{
+width: 100%;
+}
+
+.forpics{
+    width: 33.3%;
+    float: left;
 
 }
-.forimg{
+.inner{
+    padding: 10px;
+}
 
+/* five page */
+.fvepg{
+width: 100%;
+background-color:#F8F8F8 ;
+padding:60px 0px ;  
+
+}
+.fvetxt{
+   
+    width: 50%;
+    float: left;
+}
+.fvetxt ul li{
+    list-style: none;
+}
+.fvetxt ul li img{
+    width: 30px;
+    vertical-align: middle;
+    background-color: #8e7754;
+}
+.fvetxt ul li p{
+    vertical-align: middle;
+    display: inline-block;
+}
+.fveimg{
+    width: 50%;
+    float: left;
+}
+.fveimg img{
+    width: 80%;
+}
+.clear-fix{
+    clear: both;
+}
+    
+/* <!-- last page --> */
+.lstpg{
+    width: 100%;
+    background-color:#403D38 ;
+    float: left;
+}
+.lstpg .list{
+    float: left;
+    width: 25%;
+  
+}
+
+.list ul li{
+   
+    
+    list-style: none;
+}
+.list img{
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.list p{
+    display: inline-block;
+
+    vertical-align: middle;
+}
+.list{
+    color: white;
+}
+ul{
+  padding:0;
 }
